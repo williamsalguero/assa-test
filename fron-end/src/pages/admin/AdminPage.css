@@ -1,0 +1,56 @@
+/* AdminPage.css */
+
+.reports__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.generateReport_container,
+.list_container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.btn__container {
+  width: 100%;
+  margin-top: auto;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn__container:hover {
+  background-color: #2980b9;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
